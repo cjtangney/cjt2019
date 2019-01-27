@@ -12,20 +12,21 @@ const PUBLIC = process.env.PUBLIC_URL;
 class Home extends React.Component {
   render() {
     return (
-      <div id='card-container'>
-        {/* card component */}
-        <Card 
-          classes='text-center img-left'
-          imgSrc={PUBLIC + '/img/headshot.jpg'} 
-          altTxt='My Headshot'  
-          cardBody={
-            <div className='container'>
-              <h1>Hey there!</h1>
-              <p className='text-large'>I'm Connor, and it seems like you've stumbled upon my little corner of the Internet. Welcome! When I set out to create this site, I initially intended for it to be a resource that I could provide when someone asked to learn a little bit about me. After all, carrying around business cards in this day and age is a little... gauche.</p>
-            </div>
-          }
-      	/>
-    </div>
+	    <div id='card-container'>
+	      {/* card component */}
+	      <Card 
+	        classes='full-page img-right'
+	        imgSrc={PUBLIC + '/img/card-08.jpg'} 
+	        altTxt='An image for the Card component' 
+	        cardBody={
+	          <div className='container'>
+	          	<h1>Check this card out!</h1>
+	            <p className='text-large'>Nullam at interdum parturient adipiscing velit praesent quisque orci ullamcorper a mi elementum ullamcorper suscipit netus enim nunc volutpat nam per pretium fermentum consequat et et malesuada a tincidunt.</p>
+	            <span className='h5'>Card class: full-page img-right</span>
+	          </div>
+	        }
+	    	/>
+	  	</div>
     );
   }
 }

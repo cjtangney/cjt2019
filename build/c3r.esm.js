@@ -1,0 +1,6 @@
+/*!
+ * Built with Stencil
+ * Copyright © VFH 2022
+ */
+import{p as a,H as e,b as s}from"./index-9bbefc3b.js";import{g as i}from"./app-globals-f7a1d589.js";import"./utils-73a6c04f.js";const r=()=>{{c(e.prototype)}const s=import.meta.url;const i={};if(s!==""){i.resourcesUrl=new URL(".",s).href}return a(i)};const c=a=>{const e=a.cloneNode;a.cloneNode=function(a){if(this.nodeName==="TEMPLATE"){return e.call(this,a)}const s=e.call(this,false);const i=this.childNodes;if(a){for(let a=0;a<i.length;a++){if(i[a].nodeType!==2){s.appendChild(i[a].cloneNode(true))}}}return s}};r().then((a=>{i();return s([["app-root_2",[[4,"app-root"],[0,"static-router",{markup:[1032]}]]],["c3-card",[[0,"c3-card",{cardStyle:[1,"card-style"],cardOrientation:[1,"card-orientation"],fullBleed:[4,"full-bleed"],classes:[1],headerLink:[4,"header-link"],headerInline:[4,"header-inline"],hasHeader:[32],hasMedia:[32],hasFooter:[32],isHeaderInline:[32],isHeaderLink:[32],cssString:[32]}]]],["c3-icon",[[0,"c3-icon",{classes:[1],icon:[1]}]]],["c3-lazy-img",[[0,"c3-lazy-img",{imgSrc:[1,"img-src"],imgAlt:[1,"img-alt"],classes:[1]}]]],["c3-modal",[[4,"c3-modal",{hasHeader:[32],isHidden:[32]}]]],["c3-off-canvas",[[4,"c3-off-canvas"]]]],a)}));
+//# sourceMappingURL=c3r.esm.js.map
